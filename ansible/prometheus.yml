@@ -1,0 +1,8 @@
+scrape_configs:
+  - job_name: node-dumbways
+    scrape_interval: 5s
+    static_configs:
+      - targets:
+        - node-app.salman.studentdumbways.my.id
+        - node-gate.salman.studentdumbways.my.id
+        - node-monit.salman.studentdumbways.my.id
