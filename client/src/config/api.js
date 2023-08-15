@@ -3,7 +3,7 @@ import axios from "axios";
 // Create Base URL
 const baseURL = import.meta.env.VITE_BASE_URL;
 export const API = axios.create({
-  baseURL: baseURL,
+  baseURL: 'https://api.salman-alfarisi.my.id/api/v1'
 });
 
 // Authorization Token
